@@ -127,9 +127,8 @@ nav:after {
 }
 
 #search-from input[type=submit]:hover {
-    background-color: #FFF;
-    color: #2B79EB;
-    border-color: #2B79EB;
+    background-color: #1763d4;
+    color: #FFF;    
 }
 
 /* seção de ultimos empregos */
@@ -152,6 +151,8 @@ nav:after {
 
 #lastjobs-container ul {
     padding: 0;
+    margin-right: 100px;
+    margin-left: 100px;
     border: 1px solid #CCC;
     border-radius: 10px;
 }
@@ -176,7 +177,7 @@ nav:after {
     height: 100%;
 }
 /* company img */
-.company-box {
+.company-box {    
     display: inline-block;
     width: 50%;
     position: relative;
@@ -263,7 +264,7 @@ nav:after {
     margin-top: 50px;
 }
 
-.bnt-jobs {
+.bnt-jobs {        
     text-transform: uppercase;
     background-color: #FFF;
     color: #3381F3;
@@ -278,4 +279,156 @@ nav:after {
 .bnt-jobs:hover {
     background-color: #3381F3;
     color: #FFF;    
+}
+
+/* send jobs container */
+#sendjobs-container {
+    background: url('../img/banner2.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 25%;
+    padding: 15em 0;
+}
+
+#sendjobs-container h2, #sendjobs-container p {
+    width: 600px;
+    color: #FFF;   
+    margin-left: 100px; 
+}
+
+#sendjobs-container h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#sendjobs-container p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.light-btn {
+    margin-left: 100px;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.light-btn:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
+/* jobfinder status */
+#status-container {
+    text-align: center;
+    padding: 5em 0;
+}
+
+.title-center {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.p-center {
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.status-box {
+    display: inline-block;
+    text-align: center;
+    width: 22.5%;
+    margin-top: 80px;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    height: 100px;
+}
+
+.status-box:nth-child(2) {
+    border: none;
+}
+
+.status-box:nth-child(3) {
+    border-right: none;
+}
+
+.status-qtd {
+    font-size: 36px;
+}
+
+.status-text {
+    font-size: 20px;
+}
+
+/* testmont container */
+#testmony-container {
+    background: url('../img/banner7.jpg') no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+}
+
+#testmony-container h2, #testmony-container p {
+    color: #FFF;
+    text-align: center;
+}
+
+#testmony-container h2 {
+    margin-bottom: 50px;
+    font-size: 36px            
+}
+
+#testmony-container p {
+    margin-bottom: 50px;
+}
+
+.testmony-box {
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+}
+
+#testmony-container .testmony-box .testmony-msg {
+    background-color: #FFF;
+    color: #666;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;    
+    position: relative;
+    margin: 35px auto;
+    font-style: italic;
+}
+
+.testmony-msg::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #FFF;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testmony-box img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+}
+
+.testmony-name {
+    font-weight: bold;
 }
