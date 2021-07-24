@@ -596,7 +596,7 @@ footer .wrapper:after {
     .nav-container ul {
         float: none;
         text-align: center;
-        padding: 0;
+        padding: 0;        
     }
 
     .nav-container ul li {
@@ -605,19 +605,19 @@ footer .wrapper:after {
         margin-right: auto;
         float: none;
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 10px;    
     }
 
     #search-form {
         padding-top: 25em;
-        padding-bottom: 5em;
+        padding-bottom: 5em; 
     }
 
     #search-form form {
         width: 60%;
         position: relative;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; 
     }
 
     #search-form form input, #search-form form select {
@@ -627,7 +627,7 @@ footer .wrapper:after {
         width: 100%;
         border-width: 0;
         padding: 10px 20px;
-        box-sizing: border-box;
+        box-sizing: border-box; 
     }
 
     #lastjobs-container.wrapper, #status-container.wrapper, #blog-container.wrapper, .wrapper {
@@ -635,10 +635,11 @@ footer .wrapper:after {
         padding-left: 2em;
         padding-right: 2em;
     }
+
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .company-box {
         width: 46%;
         padding-left: 1em;
@@ -648,8 +649,8 @@ footer .wrapper:after {
         font-size: 1em;
     }
 
-    .company-box .company-info p, .locality i, .locality p, .job-type {
-        font-size: 0.8em;
+    .company-box .company-info p, .locality i, .locality p, .job-type span {
+        font-size: .8em;
     }
 
     .job-type {
@@ -657,12 +658,26 @@ footer .wrapper:after {
     }
 
     #sendjobs-inner h2, #sendjobs-inner p {
-        text-shadow: 0.5px 0.5px #000;
-    }
+        text-shadow: .5px .5px #000;
+    } 
 
     .status-box {
         width: 49.4%;
         border: none;
+    }
+
+    .status-box:nth-child(1), .status-box:nth-child(3) {
+        border-right: 1px solid #DDD;
+    }
+
+    .testmony-box {
+        width: 50.4%; 
+    }
+
+    .article-box {
+        width: 100%;
+        display: block;
+        padding: 0;
     }
 
 }
